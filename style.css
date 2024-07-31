@@ -2,3 +2,14 @@ h1{
     width:100%;
     text-align: center;
 }
+main{
+    display:flex;
+    flex-wrap: wrap;
+    margin:20px;
+}
+.food{
+    width: 30%;
+}
+.food img{
+    width: 100%;
+}
