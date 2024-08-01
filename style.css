@@ -1,15 +1,48 @@
 h1{
     width:100%;
     text-align: center;
+    display:inline;
 }
 main{
     display:flex;
     flex-wrap: wrap;
     margin:20px;
+    justify-content: space-around;
+    text-align:center
+}
+body{
+    background-image: url("th.jpg");
+    text-align:center
+
+}
+
+.logo{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.logo img{
+    position:relative;
+    width: 10%;
+    left: 20%;
+    bottom: 2%;
 }
 .food{
     width: 30%;
+    text-align:center
 }
 .food img{
     width: 100%;
+    text-align:center
+}
+
+.food p{
+    font-size: 45px;
+    text-align:center
+}
+ol{
+    display:flex;
+    justify-content: space-around;
+    font-size: 40px
 }
