@@ -1,14 +1,19 @@
 h1{
     width:100%;
+    font-size:50px;
     text-align: center;
-    display:inline;
+    font-weight:bold;
+    background-color:red;
+    border:10px;
+    border-color:black;
+    border-style:solid;
 }
-main{
+.burgers{
     display:flex;
     flex-wrap: wrap;
     margin:20px;
     justify-content: space-around;
-    text-align:center
+    text-align:center;
 }
 body{
     background-image: url("th.jpg");
@@ -23,10 +28,10 @@ body{
 }
 
 .logo img{
-    position:relative;
+    position:fixed;
     width: 10%;
-    left: 20%;
-    bottom: 2%;
+    right: 10%;
+    top: 1%;
 }
 .food{
     width: 30%;
@@ -34,15 +39,99 @@ body{
 }
 .food img{
     width: 100%;
-    text-align:center
+    text-align:center;
+    min-height:350px;
+    max-height:350px;
 }
 
 .food p{
     font-size: 45px;
-    text-align:center
+    text-align:center;
+    font-weight:bold;
+    border:10px;
+    background-color:red;
+    border-color:black;
+    border-style:solid;
 }
-ol{
+ul{
     display:flex;
     justify-content: space-around;
-    font-size: 40px
+    font-size: 40px;
+    font-weight: bold;
+    border:10px;
+    background-color:red;
+    border-color:black;
+    border-style:solid;
+
+}
+h2{
+    text-align:center;
+    margin:auto;
+    font-size:40px;
+    font-weight:bold;
+    border:10px;
+    background-color:red;
+    border-color:black;
+    border-style:solid;
+    width: 15%
+}
+.drinks{
+    display:flex;
+    flex-wrap: wrap;
+    margin:20px;
+    justify-content: space-around;
+    text-align:center;
+}
+.ripoff{
+    width: 30%;
+    text-align:center
+}
+.ripoff img{
+    width: 100%;
+    text-align:center;
+    min-height:350px;
+    max-height:350px;
+}
+.ripoff p{
+    font-size: 45px;
+    text-align:center;
+    font-weight:bold;
+    border:10px;
+    background-color:red;
+    border-color:black;
+    border-style:solid;
+}
+.ripoff img{
+    min-height:350px;
+    max-height:350px;
+}
+.desserts{
+    display:flex;
+    flex-wrap: wrap;
+    margin:20px;
+    justify-content: space-around;
+    text-align:center;
+}
+.goofyfood{
+    width: 30%;
+    text-align:center
+}
+.goofyfood img{
+    width: 100%;
+    text-align:center;
+    min-height:350px;
+    max-height:350px;
+}
+.goofyfood p{
+    font-size: 45px;
+    text-align:center;
+    font-weight: bold;
+    border:10px;
+    border-style:solid;
+    background-color:red;
+    border-color:black;
+}
+.goofyfood img{
+    min-height:350px;
+    max-height:350px;
 }
